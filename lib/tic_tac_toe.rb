@@ -140,6 +140,7 @@ end
 #play
 
 def play(board)
+  turn(board)
   input = gets
   until over?(board) == true
   current_player(board)
